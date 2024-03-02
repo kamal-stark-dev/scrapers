@@ -102,14 +102,14 @@ with open(json_file_path, 'w', encoding='utf-8') as jsonfile:
     json.dump(videos, jsonfile, ensure_ascii=False, indent=2)
 
 # Print video details
-for video in videos:
-    print(f"Title: {repr(video['title'])}")
-    print(f"Channel Name: {video['channel_name']}")
-    print(f"Channel Logo: {video['channel_logo']}")
-    print(f"Thumbnail URL: {video['thumbnail_url']}")
-    print(f"Video URL: {video['video_url']}")
-    print(f"Views: {video['views']}")
-    print(f"Time Uploaded: {video['time_uploaded']}")
-    print('-' * 50)
+# for video in videos:
+#     print(f"Title: {repr(video['title'])}")
+#     print(f"Channel Name: {video['channel_name']}")
+#     print(f"Channel Logo: {video['channel_logo']}")
+#     print(f"Thumbnail URL: {video['thumbnail_url']}")
+#     print(f"Video URL: {video['video_url']}")
+#     print(f"Views: {video['views']}")
+#     print(f"Time Uploaded: {video['time_uploaded']}")
+#     print('-' * 50)
 
 driver.quit()
