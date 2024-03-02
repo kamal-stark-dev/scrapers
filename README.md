@@ -1,4 +1,3 @@
-# scrapers
 Hackathon Project
 
 # Main Idea
